@@ -30,6 +30,8 @@ with open('ip.txt', 'w') as file:
             elements = soup.find_all('tr')
         elif url == 'https://cf.090227.xyz':
             elements = soup.find_all('tr')
+        elif url == 'https://ipdb.api.030101.xyz/?type=bestproxy':
+            elements = soup.find_all('tr')
         else:
             elements = soup.find_all('li')
         
